@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js ">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,19 +8,23 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
   </head>
-  <body>
+  <body  class=" js no-flexbox no-canvas no-canvastext no-webgl no-touch no-geolocation postmessage no-websqldatabase 
+  no-indexeddb no-hashchange no-history draganddrop no-websockets no-rgba no-hsla no-multiplebgs no-backgroundsize 
+  no-borderimage no-borderradius no-boxshadow no-textshadow no-opacity no-cssanimations no-csscolumns no-cssgradients 
+  no-cssreflections no-csstransforms no-csstransforms3d no-csstransitions fontface no-generatedcontent no-video 
+  no-audio no-localstorage no-sessionstorage no-webworkers no-applicationcache no-svg no-inlinesvg no-smil 
+  no-svgclippaths no-placeholder">
     <header>
       <a class="logo" href="/"
         ><img src="images/logo.png" alt="logo" style="width: 5rem"
       /></a>
       <nav>
         <ul class="nav__links">
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="https://abhirath.net">Home</a></li>
+          <li><a href="https://talkativeblog.hashnode.dev">Blog</a></li>
         </ul>
       </nav>
-      <a class="cta" href="#">Contact</a>
+      <a class="cta" href="#">View On Github</a>
       <p class="menu cta">Menu</p>
     </header>
     <div id="mobile__menu" class="overlay">
@@ -88,23 +92,5 @@
     </footer>
 
     <script src="js/modernizr.min.js"></script>
-    <script>
-      const menuOpen = document.querySelector(".menu");
-      const menuClose = document.querySelector(".close");
-      const overlay = document.querySelector(".overlay");
-
-      menuOpen.addEventListener("click", () => {
-        overlay.classList.add("overlay--active");
-      });
-
-      menuClose.addEventListener("click", () => {
-        overlay.classList.remove("overlay--active");
-      });
-
-      window.addEventListener("load", () => {
-        const year = new Date().getFullYear();
-        document.querySelector(".year").innerHTML = year;
-      });
-    </script>
   </body>
 </html>
