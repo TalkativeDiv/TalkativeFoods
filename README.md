@@ -28,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/talkativediv/talkativefoods">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -93,7 +93,5 @@ Distributed under the GPL License. See `LICENSE` for more information.
 [issues-shield]: https://img.shields.io/badge/issues-0-blue?style=for-the-badge
 [issues-url]: https://github.com/talkativediv/talkativefoods/issues
 [license-shield]:https://img.shields.io/badge/license-GPL-blue?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/TalkativeDiv/TalkativeFoods/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
